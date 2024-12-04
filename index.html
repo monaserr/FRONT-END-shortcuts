@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Shortcuts</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #1e1e2f;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+            direction: rtl;
+        }
+        h1 {
+            color: #ffcc00;
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #ffcc00;
+            margin-bottom: 20px;
+        }
+        .slide-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 80%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .slide {
+            padding: 20px;
+            background: #292a3a;
+            border: 1px solid #3e4050;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            animation: fadeInUp 0.8s ease;
+        }
+        ul {
+            margin: 0;
+            padding-right: 20px;
+            list-style: none;
+        }
+        li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        li b {
+            color: #ffcc00;
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Frontend Shortcuts</h1>
+    <div class="slide-container">
+        <div class="slide">
+            <h2>1. HTML</h2>
+            <ul>
+                <li><b>&lt;h1&gt; to &lt;h6&gt;:</b> Headings</li>
+                <li><b>&lt;div&gt;:</b> Division element</li>
+                <li><b>&lt;a&gt;:</b> Link</li>
+                <li><b>&lt;img&gt;:</b> Image</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h2>2. CSS</h2>
+            <ul>
+                <li><b>px:</b> Pixel unit</li>
+                <li><b>em/rem:</b> Relative units</li>
+                <li><b>@media:</b> Media queries for responsive design</li>
+                <li><b>z-index:</b> Element stacking order</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h2>3. JavaScript</h2>
+            <ul>
+                <li><b>DOM:</b> Document Object Model for interacting with page elements</li>
+                <li><b>ES6:</b> Modern JavaScript features like <code>let</code> and <code>const</code></li>
+                <li><b>API:</b> Interfaces for system integration</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h2>4. Libraries and Frameworks</h2>
+            <ul>
+                <li><b>React:</b> Library for building user interfaces</li>
+                <li><b>jQuery:</b> Simplifies DOM manipulation</li>
+                <li><b>Lodash:</b> Utility functions for data processing</li>
+                <li><b>Bootstrap:</b> Responsive web design framework</li>
+                <li><b>Angular:</b> Framework for building powerful web applications</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
